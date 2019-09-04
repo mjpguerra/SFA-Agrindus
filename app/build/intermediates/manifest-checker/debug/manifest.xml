@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sfa.mobilefast.agrindus.letti"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="29" />
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="false"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@drawable/agrindus"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppThemeNoTitleBar" >
+        <activity
+            android:name="com.mobilefast.sfandroid.gui.GUILogin"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.mobilefast.sfandroid.gui.GUIPrincipal" />
+        <activity
+            android:name="com.mobilefast.sfandroid.gui.GUITabCliente"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.mobilefast.sfandroid.gui.GUIListaCliente"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name="com.mobilefast.sfandroid.gui.GUICadastroCliente" />
+        <activity
+            android:name="com.mobilefast.sfandroid.gui.GUITabInfoCliente"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name="com.mobilefast.sfandroid.gui.GUIDetalheCliente" />
+        <activity android:name="com.mobilefast.sfandroid.gui.GUIListaPedido" />
+        <activity android:name="com.mobilefast.sfandroid.gui.GUIConsumoCliente" />
+        <activity android:name="com.mobilefast.sfandroid.gui.GUIOcorrenciaCliente" />
+        <activity
+            android:name="com.mobilefast.sfandroid.gui.GUITabPedido"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name="com.mobilefast.sfandroid.gui.GUIMovimentoPedido" />
+        <activity
+            android:name="com.mobilefast.sfandroid.gui.GUIProdutosPedido"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name="com.mobilefast.sfandroid.gui.GUIGrupoProdutos" />
+        <activity android:name="com.mobilefast.sfandroid.gui.GUIListaRoteiro" />
+        <activity android:name="com.mobilefast.sfandroid.gui.GUIRotasCliente" />
+        <activity android:name="com.mobilefast.sfandroid.gui.GUIFastSync" />
+        <activity android:name="com.mobilefast.sfandroid.gui.GUIPrincipalFastSync" />
+        <activity android:name="com.mobilefast.sfandroid.gui.GUIListaStatusPedido" />
+        <activity android:name="com.mobilefast.sfandroid.gui.GUIMsgLog" />
+        <activity android:name="com.mobilefast.sfandroid.gui.GUIGrupoProdutoPrincipal" />
+        <activity android:name="com.mobilefast.sfandroid.gui.GUIListaProdutoPrincipal" />
+        <activity android:name="com.mobilefast.assinatura.GUIAssinatura" />
+        <activity android:name="com.mobilefast.midia.FotoCamera" />
+        <activity android:name="com.mobilefast.midia.GaleriaImagem" />
+        <activity android:name="com.mobilefast.midia.GridImagens" />
+        <activity android:name="com.mobilefast.midia.FullImageActivity" />
+        <activity android:name="com.mobilefast.midia.TouchImagem" />
+        <activity android:name="com.mobilefast.sfandroid.gui.GUIPedidoCarrinho" />
+        <activity android:name="com.mobilefast.sfandroid.gui.GUIListaClienteCadastrado" />
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="sfa.mobilefast.agrindus.letti.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>
