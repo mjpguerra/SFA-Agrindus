@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SFAndroidActivity!</string>
+    <string name="app_name">SFA LETTI</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="pref_first_rum">first_rum</string>
+    <string name="verificar_permissao">Para continuar é necessário aceitar as permissões exigidas!</string>
+    <string name="ok">Ok</string>
+
+</resources>

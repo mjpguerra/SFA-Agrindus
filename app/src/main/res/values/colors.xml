@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="dttPrimary">#909497</color>
+    <color name="cinza_claro">#EFEFEF</color>
+    <color name="dttPrimaryDark">#541a5e</color>
+    <color name="dttAccent">#4C973D</color>
+    <color name="background">#383A44</color>
+    <color name="blue">#0C5BA7</color>
+    <color name="blueDark">#FF083560</color>
+
+</resources>
