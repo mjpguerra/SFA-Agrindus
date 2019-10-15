@@ -8,16 +8,24 @@ android {
         applicationId "sfa.mobilefast.letti"
         minSdkVersion 17
         targetSdkVersion 29
-        versionCode 7
+        versionCode 11
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
         vectorDrawables.useSupportLibrary = true
-
         ndk.abiFilters 'armeabi-v7a', 'arm64-v8a' ,'x86' ,'x86_64', 'armeabi'
         compileOptions {
             sourceCompatibility JavaVersion.VERSION_1_8
             targetCompatibility JavaVersion.VERSION_1_8
+        }
+
+        packagingOptions {
+            // exclude everything 64bit related
+          //  exclude '/lib/mips64/**'
+            //exclude '/lib/arm64/**'
+            exclude '/lib/arm64-v8a/**'
+          //  exclude '/lib/x86_64/**'
+
         }
     }
 
