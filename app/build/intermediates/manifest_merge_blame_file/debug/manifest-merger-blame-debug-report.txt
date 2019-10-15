@@ -1,0 +1,199 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="sfa.mobilefast.letti"
+4    android:versionCode="7"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml
+10
+11    <supports-screens
+11-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:6:5-10:40
+12        android:largeScreens="true"
+12-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:7:9-36
+13        android:normalScreens="true"
+13-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:8:9-37
+14        android:smallScreens="true"
+14-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:9:9-36
+15        android:xlargeScreens="true" />
+15-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:10:9-37
+16
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:12:5-79
+17-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:12:22-76
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:13:5-83
+18-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:13:22-64
+19    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+19-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:14:5-74
+19-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:14:22-72
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:15:5-97
+20-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:15:22-78
+21    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+21-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:16:5-95
+21-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:16:22-76
+22    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+22-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:17:5-97
+22-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:17:22-78
+23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+23-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:18:5-92
+23-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:18:22-73
+24    <uses-permission android:name="android.permission.VIBRATE" />
+24-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:19:5-66
+24-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:19:22-63
+25    <uses-permission android:name="android.permission.WAKE_LOCK" />
+25-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:20:5-68
+25-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:20:22-65
+26
+27    <uses-feature
+27-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:23:5-25:35
+28        android:name="android.hardware.camera"
+28-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:24:9-47
+29        android:required="true" />
+29-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:25:9-32
+30
+31    <application
+31-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:27:5-82:19
+32        android:name="android.support.multidex.MultiDexApplication"
+33        android:allowBackup="false"
+33-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:28:9-36
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.0.0] /Users/mario.guerrra/.gradle/caches/transforms-2/files-2.1/2ffb88316df49107418be0872d7babe4/core-1.0.0/AndroidManifest.xml:22:18-86
+35        android:debuggable="true"
+36        android:icon="@drawable/agrindus"
+36-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:29:9-42
+37        android:label="@string/app_name"
+37-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:30:9-41
+38        android:largeHeap="true"
+38-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:31:9-33
+39        android:supportsRtl="true"
+39-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:33:9-35
+40        android:testOnly="true"
+41        android:theme="@style/AppThemeNoTitleBar" >
+41-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:32:9-50
+42        <activity
+42-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:34:9-42:20
+43            android:name="com.mobilefast.sfandroid.gui.GUILogin"
+43-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:35:13-65
+44            android:windowSoftInputMode="stateAlwaysHidden" >
+44-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:36:13-60
+45            <intent-filter>
+45-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:37:13-41:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:38:17-69
+46-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:38:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:40:17-77
+48-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:40:27-74
+49            </intent-filter>
+50        </activity>
+51        <activity android:name="com.mobilefast.sfandroid.gui.GUIPrincipal" />
+51-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:43:9-87
+51-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:43:19-75
+52        <activity
+52-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:44:9-46:72
+53            android:name="com.mobilefast.sfandroid.gui.GUITabCliente"
+53-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:45:13-70
+54            android:windowSoftInputMode="stateAlwaysHidden" />
+54-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:46:13-60
+55        <activity
+55-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:47:9-49:72
+56            android:name="com.mobilefast.sfandroid.gui.GUIListaCliente"
+56-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:48:13-72
+57            android:windowSoftInputMode="stateAlwaysHidden" />
+57-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:49:13-60
+58        <activity android:name="com.mobilefast.sfandroid.gui.GUICadastroCliente" />
+58-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:50:9-93
+58-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:50:19-81
+59        <activity
+59-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:51:9-53:72
+60            android:name="com.mobilefast.sfandroid.gui.GUITabInfoCliente"
+60-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:52:13-74
+61            android:windowSoftInputMode="stateAlwaysHidden" />
+61-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:53:13-60
+62        <activity android:name="com.mobilefast.sfandroid.gui.GUIDetalheCliente" />
+62-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:54:9-92
+62-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:54:19-80
+63        <activity android:name="com.mobilefast.sfandroid.gui.GUIListaPedido" />
+63-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:55:9-89
+63-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:55:19-77
+64        <activity android:name="com.mobilefast.sfandroid.gui.GUIConsumoCliente" />
+64-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:56:9-92
+64-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:56:19-80
+65        <activity android:name="com.mobilefast.sfandroid.gui.GUIOcorrenciaCliente" />
+65-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:57:9-95
+65-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:57:19-83
+66        <activity
+66-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:58:9-60:72
+67            android:name="com.mobilefast.sfandroid.gui.GUITabPedido"
+67-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:59:13-69
+68            android:windowSoftInputMode="stateAlwaysHidden" />
+68-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:60:13-60
+69        <activity android:name="com.mobilefast.sfandroid.gui.GUIMovimentoPedido" />
+69-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:61:9-93
+69-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:61:19-81
+70        <activity
+70-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:62:9-64:72
+71            android:name="com.mobilefast.sfandroid.gui.GUIProdutosPedido"
+71-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:63:13-74
+72            android:windowSoftInputMode="stateAlwaysHidden" />
+72-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:64:13-60
+73        <activity android:name="com.mobilefast.sfandroid.gui.GUIGrupoProdutos" />
+73-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:65:9-91
+73-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:65:19-79
+74        <activity android:name="com.mobilefast.sfandroid.gui.GUIListaRoteiro" />
+74-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:66:9-90
+74-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:66:19-78
+75        <activity android:name="com.mobilefast.sfandroid.gui.GUIRotasCliente" />
+75-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:67:9-90
+75-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:67:19-78
+76        <activity android:name="com.mobilefast.sfandroid.gui.GUIFastSync" />
+76-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:68:9-86
+76-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:68:19-74
+77        <activity android:name="com.mobilefast.sfandroid.gui.GUIPrincipalFastSync" />
+77-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:69:9-95
+77-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:69:19-83
+78        <activity android:name="com.mobilefast.sfandroid.gui.GUIListaStatusPedido" />
+78-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:70:9-95
+78-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:70:19-83
+79        <activity android:name="com.mobilefast.sfandroid.gui.GUIMsgLog" />
+79-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:71:9-84
+79-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:71:19-72
+80        <activity android:name="com.mobilefast.sfandroid.gui.GUIGrupoProdutoPrincipal" />
+80-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:72:9-99
+80-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:72:19-87
+81        <activity android:name="com.mobilefast.sfandroid.gui.GUIListaProdutoPrincipal" />
+81-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:73:9-99
+81-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:73:19-87
+82        <activity android:name="com.mobilefast.assinatura.GUIAssinatura" />
+82-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:74:9-85
+82-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:74:19-73
+83        <activity android:name="com.mobilefast.midia.FotoCamera" />
+83-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:75:9-77
+83-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:75:19-65
+84        <activity android:name="com.mobilefast.midia.GaleriaImagem" />
+84-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:76:9-80
+84-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:76:19-68
+85        <activity android:name="com.mobilefast.midia.GridImagens" />
+85-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:77:9-78
+85-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:77:19-66
+86        <activity android:name="com.mobilefast.midia.FullImageActivity" />
+86-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:78:9-84
+86-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:78:19-72
+87        <activity android:name="com.mobilefast.midia.TouchImagem" />
+87-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:79:9-78
+87-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:79:19-66
+88        <activity android:name="com.mobilefast.sfandroid.gui.GUIPedidoCarrinho" />
+88-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:80:9-92
+88-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:80:19-80
+89        <activity android:name="com.mobilefast.sfandroid.gui.GUIListaClienteCadastrado" />
+89-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:81:9-100
+89-->/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/src/main/AndroidManifest.xml:81:19-88
+90    </application>
+91
+92</manifest>

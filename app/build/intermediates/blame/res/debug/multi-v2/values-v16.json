@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Volumes/SECUNDARIO/SFA-Agrindus/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "outputFile": "/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/mfilho/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/9db547a41f6e87a428c5f19895a5211c/res/values-v16/values-v16.xml",
+                    "source": "/Users/mario.guerrra/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/mfilho/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/3dc864e63fac0c1d5ff85d3d9e10d7f7/res/values-v16/values-v16.xml",
+                    "source": "/Users/mario.guerrra/.gradle/caches/transforms-2/files-2.1/2ffb88316df49107418be0872d7babe4/core-1.0.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

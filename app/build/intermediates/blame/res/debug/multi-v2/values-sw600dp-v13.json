@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Volumes/SECUNDARIO/SFA-Agrindus/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "/Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/mfilho/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/9db547a41f6e87a428c5f19895a5211c/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/Users/mario.guerrra/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

@@ -78,17 +78,15 @@ public class GUILogin extends AppCompatActivity {
         }else{
             builder.setMessage(getResources().getString(R.string.verificar_permissao));
             builder.setPositiveButton(getResources().getString(R.string.ok),
-                    new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface arg0, int arg1) {
-                            Intent intent = new Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS);
-                            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                            Uri uri = Uri.fromParts("package", getPackageName(), null);
-                            intent.setData(uri);
-                            startActivity(intent);
+                    (arg0, arg1) -> {
+                        Intent intent = new Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS);
+                        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                        Uri uri = Uri.fromParts("package", getPackageName(), null);
+                        intent.setData(uri);
+                        startActivity(intent);
 
-                            alerta.dismiss();
-                            finish();
-                        }
+                        alerta.dismiss();
+                        finish();
                     });
             alerta = builder.create();
             alerta.show();
@@ -139,7 +137,7 @@ public class GUILogin extends AppCompatActivity {
 
 
         TextView lbversao = new TextView(this);
-        lbversao.setText("Ver.1.1.9 Letti Pro 12-07-2019");
+        lbversao.setText("Ver.1.1.9 Letti Pro 15-10-2019");
         lbversao.setTextColor(Color.rgb(0, 27, 134));
         lbversao.setTypeface(Typeface.DEFAULT_BOLD);
 

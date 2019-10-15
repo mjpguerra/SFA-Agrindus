@@ -44,7 +44,7 @@ public class CheckUtilits implements PermissonInterface{
                 Manifest.permission.ACCESS_NETWORK_STATE,
                 Manifest.permission.WAKE_LOCK,
                 Manifest.permission.WRITE_EXTERNAL_STORAGE,
-                Manifest.permission.CAMERA,
+                Manifest.permission.READ_PHONE_STATE
 
         };
         permissionCheck = new ArrayList<>();

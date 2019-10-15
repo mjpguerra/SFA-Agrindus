@@ -1,0 +1,4 @@
+# Referenced at /Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:31
+-keep class android.support.multidex.MultiDexApplication { <init>(); }
+# Referenced at /Users/mario.guerrra/StudioProjects/SFA-Agrindus/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:31
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
